@@ -1,0 +1,30 @@
+[custom]
+;Netfli和Instagram自动选择新加坡节点
+;其他国外选择香港节点
+
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=📲 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
+ruleset=🚀 Proxy,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ProxyMedia.list
+ruleset=🚀 Proxy,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ProxyLite.list
+ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ChinaDomain.list
+ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/GoogleCN.list
+ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Ruleset/SteamCN.list
+ruleset=🎯 Direct,[]GEOIP,CN
+ruleset=🛑 Reject,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/BanAD.list
+ruleset=🛑 Reject,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/BanProgramAD.list
+ruleset=🐟 Final,[]FINAL
+
+custom_proxy_group=🎥 Netflix`select`[]♻️ Autosg`[]🔯 Failover`[]🇸🇬 SG
+custom_proxy_group=📲 Instagram`select`[]♻️ Autosg`[]🔯 Failover`[]🇸🇬 SG
+custom_proxy_group=🚀 Proxy`select`[]♻️ Autohk`[]🇭🇰 HK
+custom_proxy_group=♻️ Autosg`url-test`[]🇸🇬 SG`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=♻️ Autohk`url-test`[]🇭🇰 HK`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🔯 Failover`fallback`.*`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🎯 Direct`[]DIRECT
+custom_proxy_group=🛑 Reject`[]REJECT
+custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
