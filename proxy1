@@ -4,13 +4,13 @@
 
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=📲 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
-ruleset=🚀 Proxy,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ProxyMedia.list
-ruleset=🚀 Proxy,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ProxyLite.list
-ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ChinaDomain.list
-ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ChinaCompanyIp.list
-ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/GoogleCN.list
-ruleset=🎯 Direct,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Ruleset/SteamCN.list
+ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🎯 Direct,[]GEOIP,CN
 ruleset=🛑 Reject,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/BanAD.list
 ruleset=🛑 Reject,https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/BanProgramAD.list
