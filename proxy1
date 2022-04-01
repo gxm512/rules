@@ -24,8 +24,8 @@ custom_proxy_group=♻️ Autohk`url-test`(香港|港|HK)`http://www.gstatic.com
 custom_proxy_group=🇸🇬 SG`select`(坡|狮城|SG|Singapore)
 custom_proxy_group=🇭🇰 HK`select`(港|HK|Hong Kong)
 custom_proxy_group=🔯 Failover`fallback`.*`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🎯 Direct`[]DIRECT
-custom_proxy_group=🛑 Reject`[]REJECT
+custom_proxy_group=🎯 Direct`select`[]DIRECT
+custom_proxy_group=🛑 Reject`select`[]REJECT
 custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct`.*
 
 enable_rule_generator=true
