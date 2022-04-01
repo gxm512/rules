@@ -26,7 +26,7 @@ custom_proxy_group=🇭🇰 HK`select`(港|HK|Hong Kong)
 custom_proxy_group=🔯 Failover`fallback`(台湾|台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🎯 Direct`select`[]DIRECT
 custom_proxy_group=🛑 Reject`select`[]REJECT
-custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct`.*
+custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct
 
 enable_rule_generator=true
 overwrite_original_rules=true
