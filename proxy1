@@ -16,8 +16,8 @@ ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=🐟 Final,[]FINAL
 
-custom_proxy_group=🎥 Netflix`select`[]♻️ Autosg`[]🇸🇬 SG
-custom_proxy_group=📲 Instagram`select`[]♻️ Autosg`[]🇸🇬 SG
+custom_proxy_group=🎥 Netflix`select`[]♻️ Autosg`[]🇸🇬 SG`[]🇭🇰 HK
+custom_proxy_group=📲 Instagram`select`[]♻️ Autosg`[]🇸🇬 SG`[]🇭🇰 HK
 custom_proxy_group=🚀 Proxy`select`[]♻️ Autohk`[]🔯 Failover`[]🇭🇰 HK`[]🇸🇬 SG
 custom_proxy_group=♻️ Autosg`url-test`(新加坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`3600,,50
 custom_proxy_group=♻️ Autohk`url-test`(香港|HK|Hong Kong)`http://www.gstatic.com/generate_204`300,,50
