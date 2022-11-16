@@ -1,0 +1,30 @@
+[custom]
+;2022-8-21新加坡，香港，台湾，日本，4个国家节点手自动选择
+
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=📲 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
+ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 Direct,[]GEOIP,CN
+ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🐟 Final,[]FINAL
+
+custom_proxy_group=🎥 Netflix`select`[]♻️ Autosg`[]♻️ Autohk`[]♻️ Autotw`[]♻️ Autojp`[]🇸🇬 SG`[]🇭🇰 HK`[]🇨🇳 TW`[]🇯🇵 JP
+custom_proxy_group=📲 Instagram`select`[]♻️ Autosg`[]♻️ Autohk`[]♻️ Autotw`[]♻️ Autojp`[]🇸🇬 SG`[]🇭🇰 HK`[]🇨🇳 TW`[]🇯🇵 JP
+custom_proxy_group=🚀 Proxy`select`[]♻️ Autosg`[]♻️ Autohk`[]♻️ Autotw`[]♻️ Autojp`[]🇸🇬 SG`[]🇭🇰 HK`[]🇨🇳 TW`[]🇯🇵 JP
+custom_proxy_group=♻️ Autosg`url-test`(新加坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`3600,,50
+custom_proxy_group=♻️ Autohk`url-test`(香港|HK|Hong Kong)`http://www.gstatic.com/generate_204`3600,,50
+custom_proxy_group=♻️ Autotw`url-test`(台湾|台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`3600,,50
+custom_proxy_group=♻️ Autojp`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`3600,,50
+custom_proxy_group=🇸🇬 SG`select`(新加坡|狮城|SG|Singapore)
+custom_proxy_group=🇭🇰 HK`select`(香港|HK|Hong Kong)
+custom_proxy_group=🇨🇳 TW`select`(台湾|台|新北|彰化|TW|Taiwan)
+custom_proxy_group=🇯🇵 JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
+custom_proxy_group=🎯 Direct`select`[]DIRECT
+custom_proxy_group=🛑 Reject`select`[]REJECT
+custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
+
