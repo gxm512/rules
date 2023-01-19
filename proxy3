@@ -1,11 +1,12 @@
 [custom]
 ;2022-8-21 新增新加坡，香港，台湾，日本，4个国家节点手自动选择
 ;2023-1-19 部分改成中文，新增XBOX规则，新增手动阿根廷、土耳其、巴西
+;ruleset=🎮 xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Xbox.list
 
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=📲 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
 ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
-ruleset=🎮 xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Xbox.list
+ruleset=🎮 xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.list
 ruleset=🎯 Direct,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 ruleset=🎯 Direct,[]GEOIP,CN
 ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
