@@ -11,7 +11,7 @@ ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 ruleset=🐟 Final,[]FINAL
 
 
-custom_proxy_group=🚀 Proxy`select`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本`[]🎯 Direct
+;custom_proxy_group=🚀 Proxy`select`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本`[]🎯 Direct
 custom_proxy_group=📢 Telegram`select`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本`[]🎯 Direct
 custom_proxy_group=🎮 Xbox`select`[]🎯 Direct`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动阿根廷`[]🍃 手动土耳其`[]🍃 手动巴西
 custom_proxy_group=🎥 Netflix`select`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本`[]🎯 Direct
