@@ -8,7 +8,7 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=🎯 Direct,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 ruleset=🎯 Direct,[]GEOIP,CN
 ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-ruleset=🐟 Final,[]FINAL
+;ruleset=🐟 Final,[]FINAL
 
 
 ;custom_proxy_group=🚀 Proxy`select`[]♻️ 自动新加坡`[]♻️ 自动香港`[]♻️ 自动台湾`[]♻️ 自动日本`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本`[]🎯 Direct
