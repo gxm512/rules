@@ -1,5 +1,5 @@
 [custom]
-ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+;ruleset=🚀 Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 ruleset=📢 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
 ruleset=🎮 Xbox,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
@@ -30,7 +30,7 @@ custom_proxy_group=🍃 手动土耳其`select`(土耳其|TR)
 custom_proxy_group=🍃 手动巴西`select`(巴西|BR)
 custom_proxy_group=🎯 Direct`select`[]DIRECT
 custom_proxy_group=🛑 Reject`select`[]REJECT
-custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct
+;custom_proxy_group=🐟 Final`select`[]🚀 Proxy`[]🎯 Direct
 
 enable_rule_generator=true
 overwrite_original_rules=true
