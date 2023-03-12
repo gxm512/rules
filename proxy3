@@ -1,5 +1,5 @@
 [custom]
-;proxy必须在所有应用最下面，分流才好用
+;📹🔮📢📲🎶
 ;`[]🍃 手动新加坡`[]🍃 手动香港`[]🍃 手动台湾`[]🍃 手动日本
 ;custom_proxy_group=🍃 手动新加坡`select`(新加坡|狮城|SG|Singapore)
 ;custom_proxy_group=🍃 手动香港`select`(香港|HK|Hong Kong)
@@ -8,6 +8,9 @@
 ;custom_proxy_group=🍃 手动阿根廷`select`(阿根廷|AR)
 ;custom_proxy_group=🍃 手动土耳其`select`(土耳其|TR)
 ;custom_proxy_group=🍃 手动巴西`select`(巴西|BR)
+;ruleset=🎮 xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Xbox.list
+;proxy必须在所有应用最下面，分流才好用
+;2023-1-19 部分改成中文，新增XBOX规则，新增手动阿根廷、土耳其、巴西
 ;2023-3-11修改了分流不好用的错误，修改部分为汉字，加入电报分流，手动选择变成选择所有节点
 
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
