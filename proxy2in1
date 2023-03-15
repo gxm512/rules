@@ -27,7 +27,7 @@ custom_proxy_group=🔮 新加坡`fallback`[]🔮 新加坡组1`[]🔮 新加坡
 custom_proxy_group=🔮 香港`fallback`[]🔮 香港组1`[]🔮 香港组2`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 台湾`fallback`[]🔮 台湾组1`[]🔮 台湾组2`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 日本`fallback`[]🔮 日本组1`[]🔮 日本组2`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🔮 新加坡组1`load-balance`(?=.*(新加坡|狮城|SG|Singapore))^((?!(新加坡.*?|)).)*$`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔮 新加坡组1`load-balance`(?=.*(新加坡|狮城|SG|Singapore))^((?!(专线|5x计量)).)*$`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 香港组1`load-balance`(?=.*(香港|HK|Hong Kong))^((?!(香港.*?专线)).)*$`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 台湾组1`load-balance`(?=.*(台湾|台|新北|彰化|TW|Taiwan))^((?!(台湾.*?专线)).)*$`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 日本组1`load-balance`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan))^((?!(日本.*?专线)).)*$`http://www.gstatic.com/generate_204`180
