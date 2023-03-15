@@ -19,10 +19,10 @@ custom_proxy_group=🎮 Xbox`select`[]🎯 全球直连`[]🔮 新加坡`[]🔮 
 custom_proxy_group=🎥 Netflix`select`[]🔮 新加坡`[]🔮 香港`[]🔮 台湾`[]🔮 日本`[]🍃 手动选择`[]🎯 全球直连
 custom_proxy_group=📹 Youtube`select`[]🔮 香港`[]🔮 新加坡`[]🔮 台湾`[]🔮 日本`[]🍃 手动选择`[]🎯 全球直连
 custom_proxy_group=🌍 Instagram`select`[]🔮 香港`[]🔮 新加坡`[]🔮 台湾`[]🔮 日本`[]🍃 手动选择`[]🎯 全球直连
-custom_proxy_group=🔮 新加坡`fallback`[]🔮 新加坡组1`[]🔮 新加坡组2`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🔮 香港`fallback`[]🔮 香港组1`[]🔮 香港组2`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🔮 台湾`fallback`[]🔮 台湾组1`[]🔮 台湾组2`http://www.gstatic.com/generate_204`180
-custom_proxy_group=🔮 日本`fallback`[]🔮 日本组1`[]🔮 日本组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 新加坡`fallback`[]🔮 新加坡组1`[]🔮 新加坡组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 香港`fallback`[]🔮 香港组1`[]🔮 香港组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 台湾`fallback`[]🔮 台湾组1`[]🔮 台湾组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 日本`fallback`[]🔮 日本组1`[]🔮 日本组2`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 新加坡组1`load-balance`(?=.*(新加坡|狮城|SG|Singapore))^((?!(新加坡.*?\|)).)*$`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 香港组1`load-balance`(?=.*(香港|HK|Hong Kong))^((?!(香港.*?\|)).)*$`http://www.gstatic.com/generate_204`180
 custom_proxy_group=🔮 台湾组1`load-balance`(?=.*(台湾|台|新北|彰化|TW|Taiwan))^((?!(台湾.*?\|)).)*$`http://www.gstatic.com/generate_204`180
