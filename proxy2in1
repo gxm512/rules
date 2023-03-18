@@ -1,5 +1,6 @@
 [custom]
 ;一元和白月光机场的负载均衡+故障转移,其中组一负载均衡里边前边是包含^后面是不包含，\是转义,每次换备用机场都要根据其中的名字重新写备用机场的格则。
+;重写proxy代理规则，因为京东访问慢，可能代理规则有问题
 
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
 ruleset=🎮 Xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Xbox.list
@@ -7,7 +8,8 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=📹 Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
 ruleset=🌍 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
 ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-ruleset=🚀 代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🚀 代理选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+ruleset=🚀 代理选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
