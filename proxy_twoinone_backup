@@ -1,0 +1,43 @@
+[custom]
+;光月光和魔戒的两合一负载均衡的定义代码
+
+
+ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
+ruleset=🎮 Xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Xbox.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=📹 Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🌍 Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+#ruleset=🚀 代理选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list
+#ruleset=🚀 代理选择,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
+ruleset=🚀 代理选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+
+
+custom_proxy_group=🚀 代理选择`select`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择`[]🎯 全球直连
+custom_proxy_group=📲 Telegram`select`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择`[]🎯 全球直连
+custom_proxy_group=🎮 Xbox`select`[]🎯 全球直连`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择
+custom_proxy_group=🎥 Netflix`select`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择`[]🎯 全球直连
+custom_proxy_group=📹 Youtube`select`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择`[]🎯 全球直连
+custom_proxy_group=🌍 Instagram`select`[]🔯 新加坡`[]🔯 香港`[]🔯 台湾`[]🔯 日本`[]🍃 手动选择`[]🎯 全球直连
+custom_proxy_group=🔯 新加坡`fallback`[]🔮 新加坡组1`[]📢 新加坡组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 香港`fallback`[]🔮 香港组1`[]📢 香港组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 台湾`fallback`[]🔮 台湾组1`[]📢 台湾组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔯 日本`fallback`[]🔮 日本组1`[]📢 日本组2`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔮 新加坡组1`load-balance`(?=.*(新加坡|狮城|SG|Singapore))^((?!(新加坡.*?\-)).)*$`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔮 香港组1`load-balance`(?=.*(香港|HK|Hong Kong))^((?!(香港.*?\-)).)*$`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔮 台湾组1`load-balance`(?=.*(台湾|台|新北|彰化|TW|Taiwan))^((?!(台湾.*?\-)).)*$`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🔮 日本组1`load-balance`(?=.*(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan))^((?!(日本.*?\-|尼日利亚.*?\-)).)*$`http://www.gstatic.com/generate_204`180
+custom_proxy_group=📢 新加坡组2`load-balance`(新加坡.*?优化)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=📢 香港组2`load-balance`(香港.*?优化)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=📢 台湾组2`load-balance`(台湾.*?优化)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=📢 日本组2`load-balance`(日本.*?优化)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🍃 手动选择`select`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT
+custom_proxy_group=🛑 全球拦截`select`[]REJECT
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 代理选择`[]🎯 全球直连
+
+enable_rule_generator=true
+overwrite_original_rules=true
