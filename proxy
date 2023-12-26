@@ -30,7 +30,7 @@ custom_proxy_group=🔮 日本`load-balance`(日本|川日|东京|大阪|泉日|
 custom_proxy_group=🍃 手动选择`select`.*
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 代理选择`[]🎯 全球直连
+custom_proxy_group=🐟 漏网之鱼`select`[]🎯 全球直连`[]🚀 代理选择
 
 enable_rule_generator=true
 overwrite_original_rules=true
