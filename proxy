@@ -3,7 +3,7 @@
 ;2023-1-19 部分改成中文，新增XBOX规则，新增手动阿根廷、土耳其、巴西
 ;2023-3-11修改了分流不好用的错误，修改部分为汉字，加入电报分流，手动选择变成选择所有节点
 ;2023-3-13自动选择替换为负载均衡
-;2023-12-29去掉图标，加入第一条局域网走国内规则，match剩下的流量全部走proxy
+;2023-12-29去掉图标，加入第一条局域网走国内规则，match剩下的流量全部走proxy，删除全球拦截规则
 
 ruleset=DIRECT,https://raw.githubusercontent.com/chaizia/Profiles/master/Mylist/Direct.list
 ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
