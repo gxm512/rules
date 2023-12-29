@@ -1,0 +1,35 @@
+[custom]
+;proxy必须在所有应用最下面，分流才好用
+;2023-1-19 部分改成中文，新增XBOX规则，新增手动阿根廷、土耳其、巴西
+;2023-3-11修改了分流不好用的错误，修改部分为汉字，加入电报分流，手动选择变成选择所有节点
+;2023-3-13自动选择替换为负载均衡
+;2023-12-29去掉图标，加入第一条局域网走国内规则，match剩下的流量全部走proxy
+
+ruleset=DIRECT,https://raw.githubusercontent.com/chaizia/Profiles/master/Mylist/Direct.list
+ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
+ruleset=Xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Ruleset/Xbox.list
+ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Instagram.list
+ruleset=Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=DIRECT,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list
+ruleset=DIRECT,[]GEOIP,CN
+ruleset=Proxy,[]MATCH
+
+
+custom_proxy_group=Proxy`select`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择`[]DIRECT
+custom_proxy_group=Telegram`select`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择`[]DIRECT
+custom_proxy_group=Xbox`select`[]DIRECT`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择
+custom_proxy_group=Netflix`select`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择`[]DIRECT
+custom_proxy_group=Youtube`select`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择`[]DIRECT
+custom_proxy_group=Instagram`select`[]新加坡`[]香港`[]台湾`[]日本`[]手动选择`[]DIRECT
+custom_proxy_group=新加坡`load-balance`(新加坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=香港`load-balance`(香港|HK|Hong Kong)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=台湾`load-balance`(台湾|台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=日本`load-balance`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)`http://www.gstatic.com/generate_204`180
+custom_proxy_group=手动选择`select`.*
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
+
