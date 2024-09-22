@@ -15,7 +15,6 @@ ruleset=Instagram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash
 ruleset=Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
 ruleset=Proxy,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
-ruleset=DIRECT,[]GEOIP,CN
 ruleset=Proxy,[]MATCH
 
 
