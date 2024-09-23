@@ -7,7 +7,7 @@
 ;2024-02-24 加入spotify规则默认直连
 
 ruleset=DIRECT,https://raw.githubusercontent.com/gxm512/rules/refs/heads/main/Lan.list
-ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
+ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
 ruleset=Xbox,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR//master/Clash/Ruleset/Xbox.list
 ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=Youtube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
