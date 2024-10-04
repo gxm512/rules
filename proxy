@@ -19,8 +19,7 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-ruleset=🎯 全球直连,[]GEOIP,LAN,no-resolve
-ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
+ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇹🇼 台湾`[]🇯🇵 日本`[]🍃 手动选择`[]🎯 全球直连
